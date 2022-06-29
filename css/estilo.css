@@ -9,7 +9,7 @@
 body{
     margin: 0;
     font-family: 'Comfortaa', cursive;
-    background: rgb(132, 248, 209);
+    background: rgb(162, 253, 246);
 }
 
 .navbar{
@@ -71,7 +71,7 @@ body{
     display: flex;
     flex-flow: row wrap ;
     height: 600px;
-    background: rgb(132, 248, 209);
+    background: rgb(162, 253, 246);
     justify-content: center;
     align-items: center;
     padding-top: 150px;
@@ -86,7 +86,7 @@ body{
 .headline h2{
     font-weight: 900;
     font-size: 20px;
-    color: rgb(175, 10, 153);
+    color: rgb(147, 10, 175);
     padding: 0;
     margin: 0;
 }
@@ -126,7 +126,7 @@ section{
     text-align: center;
     padding: 5%;
     width: 90%;
-    background: rgb(132, 248, 209);
+    background: rgb(162, 253, 246);
 }
 
 section h2{
@@ -178,7 +178,7 @@ section h2{
 footer{
     margin-top: 100px;
     height: 400px;
-    background-image: linear-gradient(180deg, rgb(229, 149, 229), rgb(197, 111, 197), rgb(199, 46, 161)) ;
+    background-image: linear-gradient(180deg, rgb(216, 149, 229), rgb(177, 84, 196), rgb(199, 46, 161)) ;
     text-align: center;
     border-top: 5px solid rgb(213, 7, 240);
 
