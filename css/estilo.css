@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dancing+Script&family=Fredoka+One&family=Kdam+Thmor+Pro&family=Quicksand&family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,100;0,400;0,500;1,300;1,900&family=Russo+One&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    background: rgb(132, 248, 209);
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: rgb(226, 202, 248);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    margin-left: 10%;
+    flex: 20%;
+    text-align: left;
+}
+
+.logo h1{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(61, 6, 112);
+    font-size: 34px;
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: rgb(61, 6, 112);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color: rgb(175, 12, 148);
+    border-top: 4px solid rgb(61, 6, 112);
+}
+
+#botao{
+    background: rgb(61, 6, 112);
+    padding: 10px 25px;
+    color: aliceblue;
+    border-radius: 7px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    border: none;
+    background: rgb(238, 30, 203);
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap ;
+    height: 600px;
+    background: rgb(132, 248, 209);
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+   
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(175, 10, 153);
+    padding: 0;
+    margin: 0;
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+   
+    text-align: center;
+}
+
+.headline p{
+    color:black;
+    text-align: left;
+    
+}
+
+.contact-btn{
+    display: inline-block;
+    background: rgb(61, 6, 112);
+    padding: 20px;
+    color: aliceblue;
+    text-transform: uppercase;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.contact-btn:hover{
+    background: rgb(175, 48, 165);
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+    width: 90%;
+    background: rgb(132, 248, 209);
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin:0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(61, 6, 112);
+
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid rgb(175, 48, 165);
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.card:hover{
+    background: rgb(255, 24, 159);
+    padding: 30px;
+}
+
+.card:hover .card-text{
+    display:none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+}
+
+.card:hover img{
+    display: none;
+
+}
+
+.texto-oculto{
+    display: none;
+}
+
+footer{
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, rgb(229, 149, 229), rgb(197, 111, 197), rgb(199, 46, 161)) ;
+    text-align: center;
+    border-top: 5px solid rgb(213, 7, 240);
+
+}
+
+.logo-rodape{
+    padding: 100px;
+}
+
+.agencia{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+    font-size: 34px;
+}
+
+.whats{
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+}
